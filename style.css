@@ -1,0 +1,51 @@
+/* Android */
+
+#hero {
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.gambar1 {
+  margin-left: 50px;
+}
+#about {
+  padding-top: 90px;
+}
+.tentang {
+  padding-top: 20px;
+}
+#divisi {
+  background-color: #0099ff;
+  padding-top: 50px;
+}
+/* Desktop */
+@media (min-width: 992px) {
+  .tampil {
+    border-radius: 5px;
+    padding: 22px;
+    background-color: #130f40;
+    color: white;
+  }
+  #hero {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 750px;
+  }
+  #about {
+    padding-top: 90px;
+  }
+  .kata {
+    text-align: justify;
+    text-indent: 0.5in;
+  }
+  #divisi {
+    background-color: #0099ff;
+    padding-top: 70px;
+  }
+  .card {
+    width: 18rem;
+  }
+}
